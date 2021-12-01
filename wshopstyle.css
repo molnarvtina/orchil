@@ -1,0 +1,173 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for footer starts here */
+
+footer{
+    background-color: #BF66C2;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.emailbox{
+    display: block;
+    margin: 0;
+}
+ 
+  #footer-email {
+    border: none;
+    padding: 13px 13px 11px 13px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    float: left;
+    text-align: left;
+  }
+  
+  .footer-button {
+    background-color: #F9E98F;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    transition-duration: 0.4s;
+    float: left;
+    margin-right: 40px;
+    margin-left: 25px;
+  }
+  
+  .footer-button:hover {
+    background-color: #EE69B7;
+    color: white;
+  }
+  .followus{
+      margin-left: 25px;
+      font-weight: 400;
+      color: white;
+      font-size: 30px;
+  }
+  .icons{
+    display: flex;
+    gap: 30px;
+    padding: 0px 17px;
+    align-content: center;
+    margin: auto;
+    margin-right: 70px;
+  }
+  .icon{
+    width: 44px;
+    height: 44px;
+  }
+  .grids{
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .gridone{
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+  .gridtwo{
+      grid-column-start: 4;
+      grid-column-end: 5;
+  }
+  .cright{
+      color: white;
+      text-align: center;
+  }
+
+/* Code for the original page from the first part of the project 
+
+footer{
+    background-color: #BF66C2;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.emailbox{
+    display: block;
+    margin: 0;
+}
+ 
+  #footer-email {
+    border: none;
+    padding: 13px 13px 11px 13px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    float: left;
+    text-align: left;
+  }
+  
+  .footer-button {
+    background-color: #F9E98F;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    transition-duration: 0.4s;
+    float: left;
+    margin-right: 40px;
+    margin-left: 25px;
+  }
+  
+  .footer-button:hover {
+    background-color: #EE69B7;
+    color: white;
+  }
+  .followus{
+      margin-left: 25px;
+      font-weight: 400;
+      color: white;
+      font-size: 30px;
+  }
+  .icons{
+    display: flex;
+    gap: 30px;
+    padding: 0px 17px;
+    align-content: center;
+    margin: auto;
+    margin-right: 70px;
+  }
+  .icon{
+    width: 44px;
+    height: 44px;
+  }
+  .grids{
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .gridone{
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+  .gridtwo{
+      grid-column-start: 4;
+      grid-column-end: 5;
+  }
+  .cright{
+      color: white;
+      text-align: center;
+      
+      */ 
