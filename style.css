@@ -1,9 +1,131 @@
-body{
+/*FONT & SETTINGS*/
+@import url('https://fonts.google.com/specimen/Poppins#about');
+*{
+    font-family: 'Poppins';
+}
+
+.body{
+    background-color: white;
     margin: 0;
 }
-h1{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color:#DBB1CA;
+/*CSS FORMS*/
+input[type=text] {
+    border: 2px solid #E0B24E;
+    border-radius: 4px;
+  }
+  input {
+    width: 90%;
+  }
 
+  /*MAIN TEXTS*/
+  h1{
+      color: #E0B24E;
+      font-size: 26px;
+      margin: 30px;
+      background-color: #F5EBDA;
+      width: 73%;
+  }
+  h2{
+      color: #DBB1CA;
+      font-size: 22px;
+  }
+  h2{
+      color: #DBB1CA;
+  }
+  h3{
+      color: #DBB1CA;
+  }
+  h4{
+      color: white;
+      background-color: #DBB1CA;
+      line-height: 56px;
+      padding: 0;
+      width: 20%;
+  }
+  h5{
+      color: #E0B24E;
+      align-self: left;
+  }
+  p{
+      color: #DBB1CA;
+      font-size: 22px;
+      margin: 30;
+  }
+  h6{
+      color: #DBB1CA;
+  }
+  /*LOGO*/
+  .logo{
+    position:absolute;
+    margin-top: -100px;
+    margin-left: 5px;
+    width: 150px;
+    height: 200px;
+    object-fit:contain
 }
+/*BREADCRUMBS NAGIVATION*/
+ul.breadcrumb {
+    padding: 50px 16px;
+    list-style: none;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 14px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color:#E0B24E;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color:#E0B24E;
+    text-decoration: none;
+  }
+  /*PRODUCT IMAGES*/
+  img {
+    width: 10%;
+    height: auto;
+  }
+  /*PROCEED BUTTON*/
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  } 
+  .Proceed {
+    background-color: #E0B24E;
+    color: white;
+  }
+  /*GO BACK BUTTON*/
+  a{
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+  }
+  .Back{
+      background-color: #F5EBDA;
+      color: #E0B24E;
+  }
+/*ICONS*/
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+footer img{
+    width: 20px;
+    height: auto;
+    padding: -10px;
+}
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: white;
+    }
+    /* FOR PHONES */
+[class*="col-"] {
+    width: 60%;
+  }
+  /*FOR COMPUTER DESKTOP*/
+  @media only screen and (min-width: 400px) {
+  /*END OF CODE*/
