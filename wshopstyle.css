@@ -74,8 +74,13 @@ h2{
 
 /* CSS for footer starts here */
 
+.subscribe{
+    margin-left: 20px;
+    color: #E0B24E;
+}
+
 footer{
-    background-color: #BF66C2;
+    background-color: #F5EBDA;
     margin-top: 80px;
     margin-bottom: 0;
 }
@@ -94,8 +99,9 @@ footer{
   }
   
   .footer-button {
-    background-color: #F9E98F;
+    background-color: #E0B24E;
     border: none;
+    border-radius: 25px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -107,7 +113,7 @@ footer{
   }
   
   .footer-button:hover {
-    background-color: #EE69B7;
+    background-color: #F5EBDA;
     color: white;
   }
   .followus{
@@ -144,13 +150,19 @@ footer{
   .cright{
       color: white;
       text-align: center;
-  }
+  }   
+
+
+
+
+
 
   @media only screen and (min-width: 768px) {
 
     .products{
         grid-template-columns: repeat(2, 1fr);
     }
+    
 /* Code for the original page from the first part of the project 
 
 footer{
