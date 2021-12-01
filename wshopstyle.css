@@ -8,16 +8,65 @@ body{
 .logo{
     width: 25%;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.shoppingcart{
+    padding-right: 20px;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+h1{
+    text-align: center;
+    color: #E0B24E;
+    font-weight: 500;
+}
+h2{
+    text-align: center;
+    color: #E0B24E;
+    background-color: #F5EBDA;
+    font-weight: 500;
+
+}
+.item{
+    background-color: #F5EBDA;
+}
+.itempic{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; /* circle */
+    
+}
+
+.price-general{
+    color: #DBB1CA;
+    font-size: 45px;
+    text-align: center;
+}
+
+.price-orange{
+    color: #E0B24E;
+}
 
 
+.products{
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+}
 
-
-
-
-
-
-
-
+.item {
+    padding-top: 3rem;
+    width: 100%
+}
 
 
 
@@ -97,6 +146,11 @@ footer{
       text-align: center;
   }
 
+  @media only screen and (min-width: 768px) {
+
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
 /* Code for the original page from the first part of the project 
 
 footer{
