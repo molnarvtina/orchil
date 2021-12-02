@@ -1,0 +1,239 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 25%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.shoppingcart{
+    padding-right: 20px;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+h1{
+    text-align: center;
+    color: #E0B24E;
+    font-weight: 500;
+}
+h2{
+    text-align: center;
+    color: #E0B24E;
+    background-color: #F5EBDA;
+    font-weight: 500;
+
+}
+.item{
+    background-color: #F5EBDA;
+}
+.itempic{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; /* circle */
+    
+}
+
+.price-general{
+    color: #DBB1CA;
+    font-size: 45px;
+    text-align: center;
+}
+
+.price-orange{
+    color: #E0B24E;
+}
+
+
+.products{
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+.item {
+    padding-top: 3rem;
+    width: 100%
+}
+
+
+
+
+
+/* CSS for footer starts here */
+
+.subscribe{
+    margin-left: 20px;
+    color: #E0B24E;
+}
+
+footer{
+    background-color: #F5EBDA;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.emailbox{
+    display: block;
+    margin: 0;
+}
+ 
+  #footer-email {
+    border: none;
+    padding: 13px 13px 11px 13px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    float: left;
+    text-align: left;
+  }
+  
+  .footer-button {
+    background-color: #E0B24E;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    transition-duration: 0.4s;
+    float: left;
+    margin-right: 40px;
+    margin-left: 25px;
+  }
+  
+  .footer-button:hover {
+    background-color: #F5EBDA;
+    color: white;
+  }
+  .followus{
+      margin-left: 25px;
+      font-weight: 400;
+      color: white;
+      font-size: 30px;
+  }
+  .icons{
+    display: flex;
+    gap: 30px;
+    padding: 0px 17px;
+    align-content: center;
+    margin: auto;
+    margin-right: 70px;
+  }
+  .icon{
+    width: 44px;
+    height: 44px;
+  }
+  .grids{
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .gridone{
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+  .gridtwo{
+      grid-column-start: 4;
+      grid-column-end: 5;
+  }
+  .cright{
+      color: white;
+      text-align: center;
+  }   
+
+
+
+
+
+
+  @media only screen and (min-width: 768px) {
+
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+/* Code for the original page from the first part of the project 
+
+footer{
+    background-color: #BF66C2;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.emailbox{
+    display: block;
+    margin: 0;
+}
+ 
+  #footer-email {
+    border: none;
+    padding: 13px 13px 11px 13px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    float: left;
+    text-align: left;
+  }
+  
+  .footer-button {
+    background-color: #F9E98F;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    transition-duration: 0.4s;
+    float: left;
+    margin-right: 40px;
+    margin-left: 25px;
+  }
+  
+  .footer-button:hover {
+    background-color: #EE69B7;
+    color: white;
+  }
+  .followus{
+      margin-left: 25px;
+      font-weight: 400;
+      color: white;
+      font-size: 30px;
+  }
+  .icons{
+    display: flex;
+    gap: 30px;
+    padding: 0px 17px;
+    align-content: center;
+    margin: auto;
+    margin-right: 70px;
+  }
+  .icon{
+    width: 44px;
+    height: 44px;
+  }
+  .grids{
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .gridone{
+      grid-column-start: 1;
+      grid-column-end: 3;
+  }
+  .gridtwo{
+      grid-column-start: 4;
+      grid-column-end: 5;
+  }
+  .cright{
+      color: white;
+      text-align: center;
+      
+      */ 
