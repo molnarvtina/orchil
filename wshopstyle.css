@@ -6,7 +6,9 @@ body{
 }
 
 .logo{
-    width: 25%;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
 }
 header{
     display: flex;
@@ -24,12 +26,15 @@ h1{
     text-align: center;
     color: #E0B24E;
     font-weight: 500;
+    font-size: 60px;
 }
 h2{
     text-align: center;
     color: #E0B24E;
     background-color: #F5EBDA;
     font-weight: 500;
+    padding: 5px 0px;
+    font-size: 42px;
 
 }
 .item{
@@ -37,7 +42,8 @@ h2{
 }
 .itempic{
     display: block;
-    width: 30%;
+    width: 100%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%; /* circle */
@@ -74,8 +80,14 @@ h2{
 
 /* CSS for footer starts here */
 
+.subscribe{
+    margin-left: 20px;
+    color: #E0B24E;
+    text-transform: uppercase;
+}
+
 footer{
-    background-color: #BF66C2;
+    background-color: #F5EBDA;
     margin-top: 80px;
     margin-bottom: 0;
 }
@@ -91,11 +103,13 @@ footer{
     margin-left: 50px;
     float: left;
     text-align: left;
+    border-radius: 25px;
   }
   
   .footer-button {
-    background-color: #F9E98F;
+    background-color: #E0B24E;
     border: none;
+    border-radius: 25px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -107,13 +121,13 @@ footer{
   }
   
   .footer-button:hover {
-    background-color: #EE69B7;
-    color: white;
+    background-color: #DBB1CA;
+    color: #fff;
   }
   .followus{
       margin-left: 25px;
       font-weight: 400;
-      color: white;
+      color: #DBB1CA;
       font-size: 30px;
   }
   .icons{
@@ -142,15 +156,22 @@ footer{
       grid-column-end: 5;
   }
   .cright{
-      color: white;
+      color: #DBB1CA;
       text-align: center;
-  }
+      font-weight: 500;
+  }   
+
+
+
+
+
 
   @media only screen and (min-width: 768px) {
+      .products{
+          grid-template-columns: repeat(2, 1fr);
+      }
 
-    .products{
-        grid-template-columns: repeat(2, 1fr);
-    }
+  }
 /* Code for the original page from the first part of the project 
 
 footer{
@@ -223,5 +244,5 @@ footer{
   .cright{
       color: white;
       text-align: center;
+      */
       
-      */ 
