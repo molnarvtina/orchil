@@ -6,7 +6,9 @@ body{
 }
 
 .logo{
-    width: 25%;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
 }
 header{
     display: flex;
@@ -24,12 +26,15 @@ h1{
     text-align: center;
     color: #E0B24E;
     font-weight: 500;
+    font-size: 60px;
 }
 h2{
     text-align: center;
     color: #E0B24E;
     background-color: #F5EBDA;
     font-weight: 500;
+    padding: 5 0;
+    font-size: 42px;
 
 }
 .item{
@@ -37,7 +42,8 @@ h2{
 }
 .itempic{
     display: block;
-    width: 30%;
+    width: 100%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%; /* circle */
@@ -77,6 +83,7 @@ h2{
 .subscribe{
     margin-left: 20px;
     color: #E0B24E;
+    text-transform: uppercase;
 }
 
 footer{
@@ -96,6 +103,7 @@ footer{
     margin-left: 50px;
     float: left;
     text-align: left;
+    border-radius: 25px;
   }
   
   .footer-button {
@@ -113,13 +121,13 @@ footer{
   }
   
   .footer-button:hover {
-    background-color: #F5EBDA;
-    color: white;
+    background-color: #DBB1CA;
+    color: #fff;
   }
   .followus{
       margin-left: 25px;
       font-weight: 400;
-      color: white;
+      color: #DBB1CA;
       font-size: 30px;
   }
   .icons{
@@ -148,8 +156,9 @@ footer{
       grid-column-end: 5;
   }
   .cright{
-      color: white;
+      color: #DBB1CA;
       text-align: center;
+      font-weight: 500;
   }   
 
 
@@ -235,5 +244,5 @@ footer{
   .cright{
       color: white;
       text-align: center;
+      */
       
-      */ 
